@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  aula1.ASM Thu Sep 21 22:31:17 2023
+AVRASM ver. 2.2.7  pisca_led.asm Wed Dec 18 08:36:33 2024
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,7 +695,8 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-CSEG label        00000000
-EQU  var1         00000064
-EQU  var2         000000c8
+EQU  LED          00000005
 CSEG start        00000000
+CSEG main         00000001
+CSEG delay        00000008
+CSEG loop         0000000e

@@ -16,6 +16,8 @@
       <itemPath>soma.asm</itemPath>
       <itemPath>somaII.asm</itemPath>
       <itemPath>vetores.asm</itemPath>
+      <itemPath>pisca_led.asm</itemPath>
+      <itemPath>soma_32bits.asm</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -1028,10 +1030,26 @@
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Tool>
       <item path="aula1.asm" ex="true" overriding="false">
+        <AVR-ASM>
+        </AVR-ASM>
+        <AVR-Global>
+        </AVR-Global>
+      </item>
+      <item path="pisca_led.asm" ex="true" overriding="false">
       </item>
       <item path="soma.asm" ex="true" overriding="false">
+        <AVR-ASM>
+        </AVR-ASM>
+        <AVR-Global>
+        </AVR-Global>
       </item>
       <item path="somaII.asm" ex="true" overriding="false">
+        <AVR-ASM>
+        </AVR-ASM>
+        <AVR-Global>
+        </AVR-Global>
+      </item>
+      <item path="vetores.asm" ex="true" overriding="false">
       </item>
     </conf>
     <conf name="programming" type="2">
