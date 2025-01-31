@@ -12,12 +12,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>aula1.asm</itemPath>
-      <itemPath>soma.asm</itemPath>
-      <itemPath>somaII.asm</itemPath>
+      <itemPath>aula1.ASM</itemPath>
+      <itemPath>registradores.asm</itemPath>
+      <itemPath>sram.asm</itemPath>
       <itemPath>vetores.asm</itemPath>
-      <itemPath>pisca_led.asm</itemPath>
-      <itemPath>soma_32bits.asm</itemPath>
+      <itemPath>psicaled.asm</itemPath>
+      <itemPath>soma.asm</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -1029,21 +1029,21 @@
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Tool>
-      <item path="aula1.asm" ex="true" overriding="false">
+      <item path="aula1.ASM" ex="true" overriding="false">
         <AVR-ASM>
         </AVR-ASM>
         <AVR-Global>
         </AVR-Global>
       </item>
-      <item path="pisca_led.asm" ex="true" overriding="false">
+      <item path="psicaled.asm" ex="true" overriding="false">
       </item>
-      <item path="soma.asm" ex="true" overriding="false">
+      <item path="registradores.asm" ex="true" overriding="false">
         <AVR-ASM>
         </AVR-ASM>
         <AVR-Global>
         </AVR-Global>
       </item>
-      <item path="somaII.asm" ex="true" overriding="false">
+      <item path="sram.asm" ex="true" overriding="false">
         <AVR-ASM>
         </AVR-ASM>
         <AVR-Global>
@@ -2054,6 +2054,12 @@
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Tool>
+      <item path="aula1.ASM" ex="false" overriding="false">
+        <AVR-ASM>
+        </AVR-ASM>
+        <AVR-Global>
+        </AVR-Global>
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>
