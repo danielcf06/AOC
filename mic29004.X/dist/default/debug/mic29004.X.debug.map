@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  soma.asm Wed Dec 18 09:20:46 2024
+AVRASM ver. 2.2.7  aulaIO.asm Wed Feb  5 08:40:14 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,9 +695,6 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-DSEG A            00000100
-DSEG B            00000104
-DSEG C            00000108
-CSEG main         00000000
-CSEG start        00000001
-CSEG soma_loop    0000000a
+CSEG start        00000000
+CSEG waitUM       00000005
+CSEG waitZERO     00000007
