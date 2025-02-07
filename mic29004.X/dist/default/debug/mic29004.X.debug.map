@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  aulaIO.asm Wed Feb  5 08:40:14 2025
+AVRASM ver. 2.2.7  controleDeLeds.asm Fri Feb  7 09:17:47 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,6 +695,7 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-CSEG start        00000000
-CSEG waitUM       00000005
-CSEG waitZERO     00000007
+CSEG setup        00000000
+CSEG verifica_press 00000006
+CSEG botao_ajuste_press 00000008
+CSEG botao_selecao_press 0000000c

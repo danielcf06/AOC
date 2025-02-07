@@ -6,7 +6,7 @@
   <DIR>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>aulaIO.asm</SOURCE_FILE>
+ <SOURCE_FILE>controleDeLeds.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc/m328Pdef.inc</FILE>
  </INCLUDED_FILES>
@@ -14,14 +14,15 @@
   <FILE>dist/default/debug/mic29004.X.debug.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
-  <FILE>aulaIO.hex</FILE>
+  <FILE>controleDeLeds.hex</FILE>
  </HEX_FILES>
  <OUTPUT_FILES>
   <FILE>dist/default/debug/mic29004.X.debug.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <start><FILE>aulaIO.asm</FILE><LINE>3</LINE></start>
-  <waitUM><FILE>aulaIO.asm</FILE><LINE>14</LINE></waitUM>
-  <waitZERO><FILE>aulaIO.asm</FILE><LINE>17</LINE></waitZERO>
+  <setup><FILE>controleDeLeds.asm</FILE><LINE>3</LINE></setup>
+  <verifica_press><FILE>controleDeLeds.asm</FILE><LINE>11</LINE></verifica_press>
+  <botao_ajuste_press><FILE>controleDeLeds.asm</FILE><LINE>14</LINE></botao_ajuste_press>
+  <botao_selecao_press><FILE>controleDeLeds.asm</FILE><LINE>20</LINE></botao_selecao_press>
  </LABELS>
 </ASSEMBLER_INFO>

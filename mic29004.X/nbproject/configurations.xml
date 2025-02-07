@@ -19,6 +19,9 @@
       <itemPath>psicaled.asm</itemPath>
       <itemPath>soma.asm</itemPath>
       <itemPath>aulaIO.asm</itemPath>
+      <itemPath>leds.asm</itemPath>
+      <itemPath>gpio.asm</itemPath>
+      <itemPath>controleDeLeds.asm</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -1035,6 +1038,12 @@
         </AVR-ASM>
         <AVR-Global>
         </AVR-Global>
+      </item>
+      <item path="aulaIO.asm" ex="true" overriding="false">
+      </item>
+      <item path="gpio.asm" ex="true" overriding="false">
+      </item>
+      <item path="leds.asm" ex="true" overriding="false">
       </item>
       <item path="psicaled.asm" ex="true" overriding="false">
         <AVR-ASM>
