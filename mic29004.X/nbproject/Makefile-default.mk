@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=soma.asm controleDeLeds.asm
+SOURCEFILES_QUOTED_IF_SPACED=soma.asm gipioCorreta.asm
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/soma.obj ${OBJECTDIR}/controleDeLeds.obj
-POSSIBLE_DEPFILES=${OBJECTDIR}/soma.obj.d ${OBJECTDIR}/controleDeLeds.obj.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/soma.obj ${OBJECTDIR}/gipioCorreta.obj
+POSSIBLE_DEPFILES=${OBJECTDIR}/soma.obj.d ${OBJECTDIR}/gipioCorreta.obj.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/soma.obj ${OBJECTDIR}/controleDeLeds.obj
+OBJECTFILES=${OBJECTDIR}/soma.obj ${OBJECTDIR}/gipioCorreta.obj
 
 # Source Files
-SOURCEFILES=soma.asm controleDeLeds.asm
+SOURCEFILES=soma.asm gipioCorreta.asm
 
 # Pack Options 
 PACK_ASSEMBLER_OPTIONS=-I "${DFP_DIR}/avrasm/inc"  -i m328Pdef.inc
@@ -95,22 +95,22 @@ ${OBJECTDIR}/soma.obj: soma.asm  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/soma.obj 
 	${MP_AS}  -fI -W+ie ${PACK_ASSEMBLER_OPTIONS} -d ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -m ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.map  -S ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.tmp soma.asm
-${OBJECTDIR}/controleDeLeds.obj: controleDeLeds.asm  nbproject/Makefile-${CND_CONF}.mk 
+${OBJECTDIR}/gipioCorreta.obj: gipioCorreta.asm  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} ${DISTDIR} 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/controleDeLeds.obj 
-	${MP_AS}  -fI -W+ie ${PACK_ASSEMBLER_OPTIONS} -d ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -m ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.map  -S ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.tmp controleDeLeds.asm
+	@${RM} ${OBJECTDIR}/gipioCorreta.obj 
+	${MP_AS}  -fI -W+ie ${PACK_ASSEMBLER_OPTIONS} -d ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -m ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.map  -S ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.tmp gipioCorreta.asm
 else
 ${OBJECTDIR}/soma.obj: soma.asm  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} ${DISTDIR} 
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/soma.obj 
 	${MP_AS}  -fI -W+ie ${PACK_ASSEMBLER_OPTIONS} -d ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -S ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.tmp  -o ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.hex  -m ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.map  -l ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.lss soma.asm
-${OBJECTDIR}/controleDeLeds.obj: controleDeLeds.asm  nbproject/Makefile-${CND_CONF}.mk 
+${OBJECTDIR}/gipioCorreta.obj: gipioCorreta.asm  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} ${DISTDIR} 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/controleDeLeds.obj 
-	${MP_AS}  -fI -W+ie ${PACK_ASSEMBLER_OPTIONS} -d ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -S ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.tmp  -o ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.hex  -m ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.map  -l ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.lss controleDeLeds.asm
+	@${RM} ${OBJECTDIR}/gipioCorreta.obj 
+	${MP_AS}  -fI -W+ie ${PACK_ASSEMBLER_OPTIONS} -d ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -S ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.tmp  -o ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.hex  -m ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.map  -l ${DISTDIR}/mic29004.X.${IMAGE_TYPE}.lss gipioCorreta.asm
 endif
 
 # ------------------------------------------------------------------------------------

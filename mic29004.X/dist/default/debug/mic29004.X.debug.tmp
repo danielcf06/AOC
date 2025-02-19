@@ -6,7 +6,7 @@
   <DIR>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>controleDeLeds.asm</SOURCE_FILE>
+ <SOURCE_FILE>gipioCorreta.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc/m328Pdef.inc</FILE>
  </INCLUDED_FILES>
@@ -14,15 +14,19 @@
   <FILE>dist/default/debug/mic29004.X.debug.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
-  <FILE>controleDeLeds.hex</FILE>
+  <FILE>gipioCorreta.hex</FILE>
  </HEX_FILES>
  <OUTPUT_FILES>
   <FILE>dist/default/debug/mic29004.X.debug.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <setup><FILE>controleDeLeds.asm</FILE><LINE>3</LINE></setup>
-  <verifica_press><FILE>controleDeLeds.asm</FILE><LINE>11</LINE></verifica_press>
-  <botao_ajuste_press><FILE>controleDeLeds.asm</FILE><LINE>14</LINE></botao_ajuste_press>
-  <botao_selecao_press><FILE>controleDeLeds.asm</FILE><LINE>20</LINE></botao_selecao_press>
+  <setup><FILE>gipioCorreta.asm</FILE><LINE>4</LINE></setup>
+  <main><FILE>gipioCorreta.asm</FILE><LINE>15</LINE></main>
+  <AJU_NPRESS><FILE>gipioCorreta.asm</FILE><LINE>24</LINE></AJU_NPRESS>
+  <AJU_PRESS><FILE>gipioCorreta.asm</FILE><LINE>18</LINE></AJU_PRESS>
+  <AJU_FIM><FILE>gipioCorreta.asm</FILE><LINE>29</LINE></AJU_FIM>
+  <SEL_NPRESS><FILE>gipioCorreta.asm</FILE><LINE>38</LINE></SEL_NPRESS>
+  <SEL_PRESS><FILE>gipioCorreta.asm</FILE><LINE>32</LINE></SEL_PRESS>
+  <SEL_FIM><FILE>gipioCorreta.asm</FILE><LINE>43</LINE></SEL_FIM>
  </LABELS>
 </ASSEMBLER_INFO>
